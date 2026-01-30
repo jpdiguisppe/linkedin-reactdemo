@@ -42,7 +42,8 @@ app.get("/auth/linkedin", (req, res) => {
     client_id: process.env.LINKEDIN_CLIENT_ID,
     redirect_uri: process.env.LINKEDIN_REDIRECT_URI,
     state,
-    scope: "openid profile email"
+    scope: "openid profile email",
+    prompt: "login"
   });
 
   res.redirect(`https://www.linkedin.com/oauth/v2/authorization?${params.toString()}`);
