@@ -9,7 +9,8 @@ A minimal full-stack demo implementing **Sign in with LinkedIn** using OAuth 2.0
 - LinkedIn OpenID Connect
 
 ## Project Structure
-backend – handles OAuth code exchange and profile retrieval               frontend – React UI that initiates login and displays user info
+- backend – handles OAuth code exchange and profile retrieval
+- frontend – React UI that initiates login and displays user info
 
 ## What it demonstrates
 - Secure frontend ↔ backend separation
